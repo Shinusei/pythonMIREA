@@ -17,7 +17,7 @@ import math'''
 def f(x):
     print(250000)
 
-d = {{200:300} : f, "2" : "second_funk", "3" : "third_funk"}
+d = {250 : f, "2" : "second_funk", "3" : "third_funk"}
 
 
 
