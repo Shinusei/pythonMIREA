@@ -1,0 +1,56 @@
+erorrs.py:3:1: W293 blank line contains whitespace
+erorrs.py:4:4: E271 multiple spaces after keyword
+erorrs.py:4:16: E203 whitespace before ','
+erorrs.py:4:20: E231 missing whitespace after ','
+erorrs.py:5:29: E202 whitespace before ')'
+erorrs.py:5:31: W291 trailing whitespace
+erorrs.py:6:9: E113 unexpected indentation
+erorrs.py:6:14: E211 whitespace before '('
+erorrs.py:6:16: E201 whitespace after '('
+erorrs.py:6:22: E222 multiple spaces after operator
+erorrs.py:8:1: E302 expected 2 blank lines, found 1
+erorrs.py:8:5: E743 ambiguous function definition 'I'
+erorrs.py:8:11: E221 multiple spaces before operator
+erorrs.py:8:11: E251 unexpected spaces around keyword / parameter equals
+erorrs.py:9:3: E111 indentation is not a multiple of 4
+erorrs.py:12:1: E305 expected 2 blank lines after class or function definition, found 0
+erorrs.py:23:1: E112 expected an indented block
+erorrs.py:28:6: E114 indentation is not a multiple of 4 (comment)
+erorrs.py:28:6: E116 unexpected indentation (comment)
+erorrs.py:32:1: E115 expected an indented block (comment)
+erorrs.py:42:6: E117 over-indented
+erorrs.py:48:1: E122 continuation line missing indentation or outdented
+erorrs.py:55:1: E124 closing bracket does not match visual indentation
+erorrs.py:57:5: E125 continuation line with same indent as next logical line
+erorrs.py:64:20: E127 continuation line over-indented for visual indent
+erorrs.py:66:16: E128 continuation line under-indented for visual indent
+erorrs.py:69:5: E129 visually indented line with same indent as next logical line
+erorrs.py:74:9: E131 continuation line unaligned for hanging indent
+erorrs.py:97:5: E272 multiple spaces before keyword
+erorrs.py:101:7: E225 missing whitespace around operator
+erorrs.py:104:8: E227 missing whitespace around bitwise or shift operator
+erorrs.py:105:15: E228 missing whitespace around modulo operator
+erorrs.py:116:21: E261 at least two spaces before inline comment
+erorrs.py:118:23: E262 inline comment should start with '# '
+erorrs.py:119:1: E265 block comment should start with '# '
+erorrs.py:122:1: E266 too many leading '#' for block comment
+erorrs.py:132:1: E402 module level import not at top of file
+erorrs.py:132:24: E275 missing whitespace after keyword
+erorrs.py:143:1: E303 too many blank lines (3)
+erorrs.py:153:19: E401 multiple imports on one line
+erorrs.py:159:80: E501 line too long (194 > 79 characters)
+erorrs.py:160:60: E502 the backslash is redundant between brackets
+erorrs.py:164:9: E701 multiple statements on one line (colon)
+erorrs.py:165:26: E702 multiple statements on one line (semicolon)
+erorrs.py:166:22: E703 statement ends with a semicolon
+erorrs.py:168:8: E712 comparison to True should be 'if cond is not True:' or 'if not cond:'
+erorrs.py:170:8: E711 comparison to None should be 'if cond is None:'
+erorrs.py:176:4: E713 test for membership should be 'not in'
+erorrs.py:178:4: E714 test for object identity should be 'is not'
+erorrs.py:180:4: E721 do not compare types, for exact checks use `is` / `is not`, for instance checks use `isinstance()`
+erorrs.py:186:1: E722 do not use bare 'except'
+erorrs.py:188:1: E731 do not assign a lambda expression, use a def
+erorrs.py:190:1: E741 ambiguous variable name 'O'
+erorrs.py:225:10: W605 invalid escape sequence '\.'
+erorrs.py:228:7: E742 ambiguous class definition 'I'
+erorrs.py:243:7: E901 IndentationError: unindent does not match any outer indentation level
