@@ -219,7 +219,7 @@ def can_drive(age):
     if age < 16:
         raise ValueError, 'Not old enough to drive'
     return True
-assert 'test' != 'testing'
+'test' != 'testing'
 obj = MyObj()
 print(repr(obj))
 regex = '\.png$'
